@@ -33,7 +33,8 @@ This is my personal portfolio website built with **Next.js 16**, **React 19**, a
 
 ---
 
-
+## demo:
+(https://rishabh-portfolio-z54q.vercel.app/)
 
 ## Features :sparkles:
 
