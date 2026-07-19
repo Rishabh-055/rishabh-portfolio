@@ -33,19 +33,7 @@ This is my personal portfolio website built with **Next.js 16**, **React 19**, a
 
 ---
 
-## Demo :movie_camera:
 
-<p align="center">
-  <img src="./public/image/screen.png" alt="Portfolio Screenshot" width="100%">
-</p>
-
-<p align="center">
-  <a href="https://your-portfolio-domain.com" target="_blank">
-    <strong>🚀 View My Portfolio</strong>
-  </a>
-</p>
-
----
 
 ## Features :sparkles:
 
