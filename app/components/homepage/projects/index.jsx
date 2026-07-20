@@ -1,5 +1,5 @@
 import { projectsData } from '@/utils/data/projects-data';
-import ProjectCard from './project-card';
+import SingleProject from './single-project';
 
 const Projects = () => {
 
@@ -24,7 +24,7 @@ const Projects = () => {
               className="sticky-card w-full mx-auto max-w-2xl sticky"
             >
               <div className="box-border flex items-center justify-center rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-[0.5s]">
-                <ProjectCard project={project} />
+                <SingleProject project={project} />
               </div>
             </div>
           ))}
