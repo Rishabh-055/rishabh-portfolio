@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaCode, FaPlay } from 'react-icons/fa';
-import placeholder from '/public/png/placeholder.png';
+const placeholder = '/png/placeholder.png';
 
 const SingleProject = ({ project }) => {
   const { name, description, tags, tools, code, demo, image } = project;
