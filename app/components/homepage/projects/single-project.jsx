@@ -42,7 +42,7 @@ const SingleProject = ({ project }) => {
         </h2>
         <div className="p-6">
           <Image
-            src={image ? (typeof image === 'string' ? image : image?.src || placeholder) : placeholder}
+            src={image?.src || image || placeholder}
             alt={name}
             width={1080}
             height={720}

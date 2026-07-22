@@ -1,3 +1,6 @@
+import aiWebsite from '@/public/png/ai webstie generator demo image.png';
+import weatherApp from '@/public/png/weather app demo image.png';
+
 export const projectsData = [
     {
         id: 1,
@@ -7,15 +10,17 @@ export const projectsData = [
         role: 'AI SaaS Full Stack Developer',
         code: 'https://github.com/Rishabh-055/ai-website-generator-project',
         demo: 'https://ai-website-generator-backend-awd7.onrender.com/',
+        image: aiWebsite,
     },
     {
         id: 2,
         name: 'Classic Weather App',
         description: 'A beautiful, fully responsive weather application built with React and the OpenWeatherMap API.',
-        tools: ['React', 'OpenWeatherMap API'],
+        tools: ['React (Vite/CRA)', 'HTML5', 'CSS3', 'OpenWeatherMap API'],
         role: 'Frontend Developer',
         code: 'https://github.com/Rishabh-055/weather-app-react',
         demo: 'https://weather-app-tau-sandy-93.vercel.app/',
+        image: weatherApp,
     }
 ];
 
