@@ -1,4 +1,5 @@
 import aiWebsite from '@/public/png/ai webstie generator demo image.png';
+import canvaClone from '@/public/png/canva-clone demo image.png';
 import weatherApp from '@/public/png/weather app demo image.png';
 
 export const projectsData = [
@@ -21,6 +22,16 @@ export const projectsData = [
         code: 'https://github.com/Rishabh-055/weather-app-react',
         demo: 'https://weather-app-tau-sandy-93.vercel.app/',
         image: weatherApp,
+    },
+    {
+        id: 3,
+        name: '🎨 Canva Clone - Full-Featured Graphic Design SaaS Platform',
+        description: 'A production-ready graphic design SaaS platform with an intuitive drag-and-drop editor, AI-powered features, and complete subscription management. Built with Next.js 14, Fabric.js canvas engine',
+        tools: ['Next.js 14', 'React 18', 'TypeScript', 'TailwindCSS', 'Fabric.js', 'Hono.js', 'Drizzle ORM', 'Neon PostgreSQL', 'Replicate AI', 'Stripe', 'Zustand'],
+        role: 'Full Stack Developer',
+        code: 'https://github.com/Rishabh-055/canva-clone',
+        demo: 'https://canva-clone-two-gray.vercel.app/',
+        image: canvaClone,
     }
 ];
 
