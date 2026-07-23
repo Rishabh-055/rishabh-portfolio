@@ -36,7 +36,7 @@ const SingleProject = ({ project }) => {
         </svg>
       </div>
 
-      <div className='flex flex-col items-center justify-between w-full h-full'>
+      <div className='flex flex-col items-center justify-between w-full h-full relative z-20'>
         <h2 className='text-[#EFF3F4] not-italic font-semibold text-[1.525rem] leading-[110%] text-center capitalize'>
           {name}
         </h2>
@@ -49,7 +49,7 @@ const SingleProject = ({ project }) => {
             className="w-80 h-64 transition-opacity duration-[0.7s] delay-[0.3s] rounded-lg group-hover:opacity-0 object-cover"
           />
         </div>
-        <div className="flex items-center justify-between w-full">
+        <div className="flex items-center justify-between w-full relative z-30">
           {demo ? (
             <Link
               href={demo}
@@ -69,11 +69,11 @@ const SingleProject = ({ project }) => {
           ) : <div />}
         </div>
       </div>
-      <p className="absolute w-[90%] md:w-[85%] md:min-h-[150px] translate-x-[-110%] transition-transform duration-[0.9s] p-6 leading-[110%] rounded-[0_20px_20px_0] left-0 top-0 bg-[#0f0b24] text-[#EFF3F4] translate-y-[25%] md:translate-y-[50%] group-hover:translate-x-[-2%] text-xs md:text-sm">
+      <p className="absolute w-[90%] md:w-[85%] md:min-h-[150px] translate-x-[-110%] transition-transform duration-[0.9s] p-6 leading-[110%] rounded-[0_20px_20px_0] left-0 top-0 bg-[#0f0b24] text-[#EFF3F4] translate-y-[25%] md:translate-y-[50%] group-hover:translate-x-[-2%] text-xs md:text-sm z-10 pointer-events-none">
         {description}
       </p>
       {projectTags.length > 0 && (
-        <div className='group-hover:translate-x-0 absolute w-[140px] text-[0.8rem] flex justify-center gap-2 flex-col translate-x-full transition-transform duration-[0.5s] delay-[0.3s] p-[0.825rem] rounded-[10px_0_0_10px] right-0 bottom-4 bg-[#0f0b24] text-[#EFF3F4]'>
+        <div className='group-hover:translate-x-0 absolute w-[140px] text-[0.8rem] flex justify-center gap-2 flex-col translate-x-full transition-transform duration-[0.5s] delay-[0.3s] p-[0.825rem] rounded-[10px_0_0_10px] right-0 bottom-4 bg-[#0f0b24] text-[#EFF3F4] z-10 pointer-events-none'>
           {projectTags.map((tag, id) => (
             <span className='font-medium break-words text-xs' key={id}>
               {tag}
