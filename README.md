@@ -40,9 +40,8 @@ This is my personal portfolio website built with **Next.js 16**, **React 19**, a
 - ✅ **Fully Responsive**: Optimized for desktop, tablet, and mobile screens
 - ✅ **SEO Friendly**: Designed with metadata and clean structure for better visibility
 - ✅ **Fast Performance**: Built with modern rendering patterns and optimized assets
-- ✅ **Interactive Sections**: Hero, about, experience, skills, projects, education, blog, and contact
+- ✅ **Interactive Sections**: Hero, about, experience, skills, projects, education, and contact
 - ✅ **Contact Form**: Integrated email notifications for direct inquiries
-- ✅ **Blog Integration**: Pulls content from dev.to when configured
 - ✅ **Dark Theme**: Clean, modern, and visually polished UI
 - ✅ **Docker Support**: Easy to run locally or in production containers
 - ✅ **Analytics Ready**: Optional Google Tag Manager support
@@ -75,7 +74,6 @@ This portfolio uses the latest Next.js 16 and React 19 capabilities:
 | 🛠️ **Skills**     | Core technical skills and areas of expertise       |
 | 🚀 **Projects**   | Showcase of selected work and achievements         |
 | 🎓 **Education**  | Education and relevant academic accomplishments    |
-| 📝 **Blog**       | Latest posts from dev.to when configured            |
 | 📧 **Contact**    | Direct contact form for collaboration requests     |
 
 ---
@@ -94,7 +92,6 @@ This portfolio uses the latest Next.js 16 and React 19 capabilities:
 - [Tutorials](#tutorials-wrench)
   - [Gmail App Password Setup](#gmail-app-password-setup)
   - [Create a Telegram Bot](#create-a-telegram-bot)
-  - [Fetching Blog from dev.to](#fetching-blog-from-devto)
 - [Packages Used](#packages-used-package)
 - [Contributing](#contributing-handshake)
 - [License](#license-page_with_curl)
@@ -387,23 +384,6 @@ EMAIL_ADDRESS=malviyarishabh4945@gmail.com
 TELEGRAM_BOT_TOKEN=your_bot_token_here
 TELEGRAM_CHAT_ID=your_chat_id_here
 ```
-
----
-
-### 📝 Fetching Blog from dev.to
-
-1. Create a [dev.to](https://dev.to/) account
-2. Open `utils/data/personal-data.js`
-3. Set your dev.to username:
-
-```javascript
-export const personalData = {
-  // ... other fields
-  devUsername: "yourusername",
-};
-```
-
-The portfolio automatically fetches and displays your latest public articles. No API key required.
 
 ---
 

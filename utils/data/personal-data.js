@@ -12,6 +12,5 @@ export const personalData = {
   twitter: '',
   stackOverflow: '',
   leetcode: "",
-  devUsername: "",
   resume: "/rishabh-resume.pdf"
 }

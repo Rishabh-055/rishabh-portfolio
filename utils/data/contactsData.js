@@ -6,6 +6,5 @@ export const contactsData = {
     facebook: '',
     linkedIn: 'https://www.linkedin.com/in/rishabh-malviya-460461286/',
     twitter: '',
-    stackOverflow: '',
-    devUsername: ""
+    stackOverflow: ''
 }
